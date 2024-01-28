@@ -18,6 +18,18 @@
             {
                 margin-right: 20px;
             }
+            .first-img
+            {
+                height:auto;
+                width: 150px;
+                float: left;
+                margin-right: 25px;
+            }
+            .vd-1
+            {
+                float: right;
+            }      
+
         </style>
     </head>
     <body>
@@ -34,10 +46,111 @@
         </div>
         <hr>
 
-        <div class="img-top">
+        <div class="img-left-top">
+            <img class="first-img" src="./images/self_01.jpg" alt="my first year as a college student">
+            <section>
+            <h2>Pramerasamee Laiwijit</h2>
+            <p>I am a 4th year student of Computer Science at Thammasat University. <br>
+            Computer Network and Operating Systems is my second study field. <br>
+            Robots programing and Cyber Security are my Interesting topic too. <br></p>
+            </section>
+
+            <section>
+            <h2>Free Time</h2>
+            <p><samp>My lifetime which has no duty!! </samp><wbr>
+            If I have free times                
+            I must choose one of this</p>
+                <select id="ft-in">
+                    <option value="" >choose one ;-;</option>
+                    
+                    <optgroup label="Play Games">
+                        <option value="actPG-1">LOL-Aram</option>
+                        <option value="actPG-2">LOL-Normal</option>
+                        <option value="actPG-3">LOL-TFT</option>
+                        <option value="actPG-4">Lethal Company</option>
+                        <option value="actPG-5">Don't Starve</option>
+                        <option value="actPG-6">Minecraft</option>
+                    </optgroup>
+
+                    <optgroup label="Watch Series">
+                        <option value="actWS-1">Fantasy-Costume</option>
+                        <option value="actWS-2">Romance-Comedy</option>
+                        <option value="actWS-3">Drama-Costume</option>
+                        <option value="actWS-4">Mystery-Costume</option>
+                    </optgroup>
+                    
+                    <optgroup label="Code">
+                        <option value="actC-1">LeetCode</option>
+                        <option value="actC-2">HackerRank</option>
+                        <option value="actC-3">HackEarth</option>
+                        <option value="actC-4">TinkerCad</option>
+                    </optgroup>
+
+                    <optgroup label="Read Books">
+                        <option value="actRB-1">Howto</option>
+                        <option value="actRB-2">Tutorial</option>
+                        <option value="actRB-3">Practical</option>
+                        <option value="actRB-4">Novel</option>
+                    </optgroup>
+
+                    <optgroup label="Exercise">
+                        <option value="actE-1">Cover dance</option>
+                        <option value="actE-2">Basketball</option>
+                        <option value="actE-3">Badminton</option>
+                        <option value="actE-4">Skateboard</option>
+                        <option value="actE-5">Rollerblade</option>
+                        <option value="actE-6">Ringfit</option>
+                    </optgroup>
+                </select>
+            
+            </section>
 
         </div>
 
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+
+        <section>
+            <h2>Know me more</h2>
+
+            <table>
+                <thead>
+                  <tr>
+                    <th colspan="3">Physical information</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Height</td>
+                        <td>148 cm.</td>
+                    </tr>
+                    <tr>
+                        <td>Eye sighted</td>
+                        <td>short</td>
+                        <td>wearing glasses</td>
+                    </tr>
+                    <tr>
+                        <td>Hair cut</td>
+                        <td>short</td>
+                        <td>half black,yellow</td>
+                    </tr>
+                </tbody>
+              </table>
+
+
+        </section>
         
+        
+        <div class="vd-1">
+            <details>                
+                <summary>I wanna tell you about real me</summary>
+                <video controls width="150">
+                    <source src="./VDOs/hobbies.MP4" type="video/mp4">
+                </video>
+            </details>
+        </div>
     </body>
 </html>
